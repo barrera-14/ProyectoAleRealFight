@@ -1,0 +1,43 @@
+/*HISTORIA.CSS*/
+:root {
+  --colorText: black;
+  --header: #ea2121;
+  --blue-background: #1F67A6;
+  --background-color: #F2F2F2;
+}
+
+* {
+  margin: 0px;
+}
+
+main{
+  color: var(--colorText);
+ 
+}
+
+main .text {
+  text-align: center;
+  width: 49%;
+  float: right;
+  margin-right: 40px;
+  font-size: larger;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 45%;
+  float: left;
+}
+
+.img img {
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+}

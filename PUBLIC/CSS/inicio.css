@@ -1,0 +1,83 @@
+:root {
+  --white-background:#fcfcfc;
+  --header: #a0a0a0;
+  --colortext: #f2f2f2;
+}
+
+body {
+  background-color: var(--white-background);
+  color: var(--colortext);
+}
+
+header {
+  background-color: var(--header);
+}
+
+.nav-link {
+  color: var(--colortext) !important;
+}
+
+.linea {
+  border-top: 3px solid orange;
+}
+
+.banner,
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+
+}
+
+.enlaces,
+.noticia {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+  
+}
+
+.noticia,
+.noticia * {
+  background-color: var(--colortext);
+  color: var(--blue-background);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: var(--header);
+  color: black;
+}
+
+footer a {
+  color: var(--white-background);
+}
+
+footer a:hover {
+  color: var(--colortext);
+}
+.noticia {
+  padding: 15px;
+}
+
+.noticia h3 {
+  margin-bottom: 10px;
+}

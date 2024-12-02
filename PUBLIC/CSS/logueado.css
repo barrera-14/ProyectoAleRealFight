@@ -1,0 +1,54 @@
+/*LOGUEADO.CSS*/
+:root {
+  --blue-background: #1F67A6;
+  --header: #ea2121;
+  --colortext: #F2F2F2;
+  --colorText: black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+.tienda,
+.app {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.desplazamientos {
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.tienda img,
+.app img,
+.desplazamientos img {
+  max-width: 100%;
+  height: 60%;
+}
+
+.cerrarSesion{
+  cursor: pointer;
+}
+
+.tienda h1,
+.app h1,
+.desplazamientos h1 {
+  color: var(--colorText);
+  margin-bottom: 10px;
+}
+

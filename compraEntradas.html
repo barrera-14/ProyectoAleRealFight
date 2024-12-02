@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="PUBLIC/IMAGES/favicon.ico">
+    <title>Entradas Real Fight</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Compra de Entradas - Real Fight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            margin: 20px auto;
+            width: 80%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #444;
+            color: white;
+        }
+        .btn-comprar {
+            background-color: #444;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn-comprar:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Compra de Entradas - Real Fight</h1>
+</header>
+
+<main>
+    <form action="paginaPago.html" method="post">
+        <table>
+            <thead>
+                <tr>
+                    <th>Combate</th>
+                    <th>Fecha</th>
+                    <th>Precio (€)</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Diego Morales vs Marco González</td>
+                    <td>10/12/2024</td>
+                    <td>50</td>
+                    <td><input type="number" name="cantidad_1" min="0" max="10" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Sofía Ríos vs Laura Pérez</td>
+                    <td>17/12/2024</td>
+                    <td>40</td>
+                    <td><input type="number" name="cantidad_2" min="0" max="10" value="0"></td>
+                </tr>
+                <tr>
+                    <td>Takeda vs Diego Morales</td>
+                    <td>25/12/2024</td>
+                    <td>60</td>
+                    <td><input type="number" name="cantidad_3" min="0" max="10" value="0"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="submit" class="btn-comprar">Comprar Entradas</button>
+    </form>
+</main>
+
+<footer>
+    <p style="text-align: center;">© 2024 - Real Fight. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

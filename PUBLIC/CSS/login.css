@@ -1,0 +1,72 @@
+/*LOGIN.CSS*/
+:root {
+  --fondoCuadro: #F2C230;
+  --text-color: black;
+  --colorBtn: #195A9A;
+  --error-color: red;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+form,
+label,
+div,
+h2 {
+  background-color: var(--fondoCuadro);
+}
+
+input {
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--fondoCuadro);
+  border: 3px solid black;
+  width: 35%;
+  height: 28.3vw;
+  flex-direction: column;
+}
+
+.form {
+  text-align: center;
+  font-size: 25px;
+}
+
+.form h2 {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.form button[type="submit"] {
+  background-color: var(--colorBtn);
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.error-message {
+  color: var(--error-color);
+  margin-top: 10px;
+}
+
+.contrast-color {
+  color: #333;
+}
+
+.highlight-color {
+  color: #ffbf00;
+}
